@@ -1,0 +1,27 @@
+/*Heading styling*/
+.dreamTeam {
+	text-align: center;
+}
+
+/*Div borders and spacing*/
+.staff {
+	display: inline-block;
+	width: 48%;
+	border: 2px solid black;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px; 
+	border-radius: 10px;
+	margin-bottom: 10px;
+
+}
+
+/*ul styling*/
+.mmUL {
+	text-align: left;
+}
+
+.teamImages {
+	border-radius: 10px;
+	margin-top: 20px;
+}
