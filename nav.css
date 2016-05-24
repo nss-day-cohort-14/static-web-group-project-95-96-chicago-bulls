@@ -1,0 +1,33 @@
+img {
+	width: 100%;
+	height: 150px;
+	border: 1px solid black;
+}
+
+a {
+	float: left;
+	margin: .65% 9%;
+	list-style: none;
+	color: white;
+	text-align: center;
+	width: 60px;
+}
+a:hover {
+	background-color: white;
+	color: #FF6000;
+	height: 100%;
+	width: 60px;
+}
+.nav {
+	border: 1px solid black;
+	width: 100%;
+	height: 35px;
+	background-color: #FF6000;
+	margin: 0;
+}
+/*.banner {
+	width: 100%;
+	height: 150px;
+	background-color: red;
+	padding: 20px
+}*/
