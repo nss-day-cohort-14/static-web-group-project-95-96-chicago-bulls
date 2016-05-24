@@ -1,5 +1,5 @@
-
-img {
+/*CJ CSS*/
+.banner {
 	width: 100%;
 	height: 110px;
 	/*border: 1px solid black;*/
@@ -68,8 +68,59 @@ a:hover {
 	padding: 1px;
 	display: inline-block;
 }
-p {
+.footer-text {
 	color: black;
 	margin-top: 0px;
 	display: inline-block;
+}
+/*CJ CSS*/
+.product {
+/*	background-color: red;*/
+	width: 30%;
+	margin: 10px;
+	height: 100%;
+	float:left;
+	border: 1px solid lightblue;
+}
+#header {
+	text-align: center;
+	border: 1px dotted lightgrey;
+}
+img {
+	width: 100%;
+	height: 250px;
+}
+.description {
+	margin: 15px;
+}
+.available p {
+	background-color: grey;
+	color: yellow;
+	height: 100%;
+	text-align: center;
+}
+header {
+	text-align: center;
+}
+.specs {
+	font-weight: bold;
+	text-align: center;
+}
+footer {
+	font-size: .7em;
+	text-align: center;
+}
+.price {
+	font-weight: bold;
+}
+.s3 {
+	line-height: .5em;
+	text-align: center;
+}
+.s2 {
+	line-height: .5em;
+}
+.content {
+	margin-top: 18%;
+	margin-bottom: 25%;
 }
