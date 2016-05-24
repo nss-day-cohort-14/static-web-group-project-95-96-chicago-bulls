@@ -1,7 +1,8 @@
 .ts-intro {
-	border: 5px solid black;
+	border: 2px solid black;
 	text-align: center;
 	margin-top: 250px;
+	margin
 
 }
 
@@ -55,4 +56,17 @@ a:hover {
 	width: 98%;
 	right: 1%;
 	left: .75%;
+}
+
+.icon {
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	padding: 1px;
+	display: inline-block;
+}
+p {
+	color: black;
+	margin-top: 0px;
+	display: inline-block;
 }
