@@ -1,7 +1,10 @@
+body {
+  font-family: Futura, sans-serif;
+}
+
 img {
   width: 100%;
   height: 110px;
-  /*border: 1px solid black;*/
   background-color: white;
 }
 
@@ -73,6 +76,10 @@ p {
   display: inline-block;
 }
 
+.careerContentDiv {
+  margin: 153px 0 50px;
+}
+
 article.hiring h1 {
   text-align: center;
 }
@@ -95,6 +102,6 @@ article.hiring h2 {
 }
 
 article.jobs div {
-  width: 420px;
+  width: 450px;
   margin: 0 auto;
 }
