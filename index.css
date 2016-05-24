@@ -1,0 +1,64 @@
+.ts-intro {
+	border: 5px solid black;
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+
+img {
+	width: 100%;
+	height: 110px;
+	border: 1px solid black;
+	background-color: white;
+
+}
+
+a {
+	float: left;
+	margin: .65% 9%;
+	list-style: none;
+	color: white;
+	text-align: center;
+	width: 60px;
+}
+a:hover {
+	background-color: white;
+	color: #FF6000;
+	height: 100%;
+	width: 60px;
+}
+.nav {
+	border: 1px solid black;
+	width: 100%;
+	height: 35px;
+	background-color: #FF6000;
+	margin-top: 0px;
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 98%;
+	right: 1%;
+	left: .75%;
+}
+.content {
+	margin-top: 14%;
+	margin-bottom: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.footer {
+	height: 45px;
+	background-color: #FF6000 ;
+	position: fixed;
+	bottom: 0px;
+	width: 98%;
+	right: 1%;
+	left: .75%;
+}
