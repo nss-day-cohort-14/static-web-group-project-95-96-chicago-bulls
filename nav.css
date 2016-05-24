@@ -2,9 +2,8 @@
 img {
 	width: 100%;
 	height: 110px;
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	background-color: white;
-
 }
 
 a {
@@ -15,18 +14,24 @@ a {
 	text-align: center;
 	width: 60px;
 }
+
 a:hover {
 	background-color: white;
 	color: #FF6000;
 	height: 100%;
 	width: 60px;
 }
+
+.container {
+	margin: 0;
+}
+
 .nav {
-	border: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 	width: 100%;
 	height: 35px;
 	background-color: #FF6000;
-	margin-top: 0px;
 }
 .navbar {
 	position: fixed;
@@ -34,6 +39,9 @@ a:hover {
 	width: 98%;
 	right: 1%;
 	left: .75%;
+	background-color: white;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 .content {
 	margin-top: 14%;
@@ -41,12 +49,27 @@ a:hover {
 	margin-left: 3%;
 	margin-right: 3%;
 }
+
 .footer {
-	height: 45px;
+	height: 50px;
 	background-color: #FF6000 ;
 	position: fixed;
 	bottom: 0px;
 	width: 98%;
 	right: 1%;
 	left: .75%;
+	text-align: center;
+	color: black;
+}
+.icon {
+	width: 35px;
+	height: 35px;
+	background-color: white;
+	padding: 1px;
+	display: inline-block;
+}
+p {
+	color: black;
+	margin-top: 0px;
+	display: inline-block;
 }
