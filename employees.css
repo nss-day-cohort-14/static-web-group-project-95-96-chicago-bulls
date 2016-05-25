@@ -1,20 +1,103 @@
+/*CJ Nav and Footer Styling */
+/*CJ CSS*/
+body {
+ font-family: Futura, sans-serif;
+}
+
+img {
+ width: 100%;
+ height: 110px;
+ background-color: white;
+}
+
+a {
+ float: left;
+ margin: .65% 9%;
+ list-style: none;
+ color: white;
+ text-align: center;
+ width: 60px;
+}
+
+a:hover {
+ background-color: white;
+ color: #FF6000 ;
+ height: 100%;
+ width: 60px;
+}
+
+.container {
+ margin: 0;
+}
+
+.nav {
+ border-top: 1px solid black;
+ border-bottom: 1px solid black;
+ width: 100%;
+ height: 35px;
+ background-color: #FF6000 ;
+}
+.navbar {
+ position: fixed;
+ top: 0;
+ width: 98%;
+ right: 1%;
+ left: .75%;
+ background-color: white;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+}
+.content {
+ margin-top: 14%;
+ margin-bottom: 5%;
+ margin-left: 3%;
+ margin-right: 3%;
+}
+
+.footer {
+ height: 50px;
+ background-color: #FF6000  ;
+ position: fixed;
+ bottom: 0px;
+ width: 98%;
+ right: 1%;
+ left: .75%;
+ text-align: center;
+ color: black;
+}
+.icon {
+ width: 35px;
+ height: 35px;
+ background-color: white;
+ padding: 1px;
+ display: inline-block;
+}
+p {
+ color: black;
+ margin-top: 0px;
+ display: inline-block;
+}
+/*Mike Meadows Styling*/
 /*Heading styling*/
 .dreamTeam {
 	text-align: center;
 	margin-bottom: 0;
 	padding-bottom: 0;
+	margin-top: 20%;
 }
 
 /*Div borders and spacing*/
 .staff {
-	float: left;
+	display: inline-block;
 	width: 24%;
 	border: 2px solid black;
 	text-align: center;
-	margin-left: 3px;
-	margin-right: 3px; 
+	margin-left: 2px;
+	margin-right: 2px; 
 	border-radius: 10px;
 	margin-top: 50px;
+	margin-bottom: 100px;
+    vertical-align: top;
 }
 
 .staff:hover {
@@ -31,14 +114,15 @@
 
 .mmContainer{
 	display: block;
-	min-height: 125px;
+	min-height: 150px;
 }
-
-
-
-
 
 .teamImages {
+	width: 200px;
+	height: 200px;
 	border-radius: 10px;
 	margin-top: 20px;
+	margin-right: 20px
+	margin-bottom: 20px;
 }
+
