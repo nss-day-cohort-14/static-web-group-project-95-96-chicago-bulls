@@ -4,6 +4,7 @@
 	height: 110px;
 	/*border: 1px solid black;*/
 	background-color: white;
+	margin-left: 0;
 }
 
 a {
@@ -68,7 +69,7 @@ a:hover {
 /*CJ CSS*/
 .product {
 	background-color: #BBC2C4;
-	width: 45%;
+	width: 28%;
 	/*margin: 10px;*/
 	margin-bottom: 50px;
 	height: 80%;
@@ -96,8 +97,29 @@ img {
 	height: 175px;
 	border: 1px solid black;
 }
-.description {
-	margin: 15px;
+#productDescription1 {
+	margin: 15px 10px;
+}
+#productDescription2 {
+	margin: 15px 2px;
+}
+#productDescription3 {
+	margin: 15px 2px;
+}
+#productDescription4 {
+	margin: 15px 2px;
+}
+#productDescription5 {
+	margin: 15px 2px;
+}
+#productDescription6 {
+	margin: 15px 2px;
+}
+#productDescription7 {
+	margin: 15px 2px;
+}
+#productDescription8 {
+	margin: 15px 2px;
 }
 .available p {
 	background-color: #FF6000;
@@ -122,17 +144,44 @@ footer {
 .s3 {
 	line-height: .5em;
 	text-align: center;
+	height: 60px
 }
 .s2 {
 	line-height: .5em;
 }
 .content {
 	margin-top: 15%;
-	width: 80%;
-	margin-left: 10%;
+	width: 95%;
+	margin-left: 5%;
 	max-height: 78%;
 	margin-bottom: 170px;
 	min-width: 80%;
 }
-.product-title {
-max-width: 90%
+h1 {
+	margin-top: 35px;
+	max-width: 80%;
+	margin-left: 10%;
+}
+#price1{
+	margin-top: 15px;
+}
+#price2{
+	margin-top: 15px;
+}
+#price3{
+	margin-top: 15px;
+}#price4{
+	margin-top: 15px;
+}
+#price5{
+	margin-top: 15px;
+}
+#price6{
+	margin-top: 15px;
+}
+#price7{
+	margin-top: 15px;
+}
+#price#{
+	margin-top: 15px;
+}
